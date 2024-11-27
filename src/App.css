@@ -1,0 +1,60 @@
+/* Dashboard Styles */
+.dashboard__container{
+    background-color: #f5f5f5;
+}
+
+/* Navbar Styles  */
+.navbar__container{
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 50px;
+}
+
+/* Display Btn Styles  */
+.displaybtn__container{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    user-select: none;
+}
+
+.displaybtn__popup{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: default;
+}
+
+.displaybtn__popup__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    color: #999999;
+    font-weight: bold;
+}
+
+.displaybtn__popup__col select{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
