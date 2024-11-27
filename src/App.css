@@ -7,7 +7,8 @@
 .navbar__container{
     background-color: #ffffff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 20px 50px;
+    padding: 15px 30px;
+    width: 100%;
 }
 
 /* Display Btn Styles  */
@@ -39,6 +40,7 @@
     flex-direction: column;
     gap: 10px;
     cursor: default;
+    z-index: 5;
 }
 
 .displaybtn__popup__row{
@@ -57,4 +59,83 @@
     border-radius: 5px;
     outline: none;
     cursor: pointer;
+}
+
+/* Tasks Styles  */
+.tasks__container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tasks__heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5px;
+}
+.task__col{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+/* Card Styles  */
+.card__container{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.card__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.avatar{
+    position: relative;
+}
+
+.avatar span{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    bottom: 0px;
+    right: -3px;
+    border: 2px solid #ffffff;
+}
+
+.avatar span.available{
+    background-color: rgb(153, 255, 0);
+}
+
+.card__tag{
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Card from '../components/Card'
+import Tasks from '../components/Tasks'
 
 const Dashboard = () => {
   return (
     <>
         <div className="dashboard__container">
             <Navbar />
-            <Card />
+            <Tasks />
         </div>
     </>
   )
