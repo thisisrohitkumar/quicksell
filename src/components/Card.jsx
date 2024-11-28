@@ -14,15 +14,13 @@ const Card = (props) => {
             </div>
           </div>
         </div>
-        <div className="card__row">
-          <StatusIcon status={props.status}/>
+        <div className="card__row__1">
+          <StatusIcon status={props.status} />
           Conduct Security Vulnerability Assessment
         </div>
-        <div className="card__row">
-          <span>
-            <span className="card__tag"></span>
-            Feature Request
-          </span>
+        <div className="card__row__2">
+          <span className="card__tag"></span>
+          Feature Request
         </div>
       </div>
     </>
